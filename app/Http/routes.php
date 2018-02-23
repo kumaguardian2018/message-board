@@ -13,5 +13,5 @@
 
 Route::get('/', 'MessagesController@index');
 
-Route::resouse('messages', 'MessagesController');
+Route::resource('messages', 'MessagesController');
 
